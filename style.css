@@ -4,9 +4,18 @@
     padding: 0;
 }
 
+/* testata */
+
 header{
     width: 621px;
     height: 90px;
+    margin: 0 auto;
+}
+
+/* main */
+   
+main > section{
+    margin: 0 auto;
 }
 
 .special{
@@ -41,33 +50,37 @@ aside{
     float: left;
 }
 
+/* footer */
+
 footer{
     width: 621px;
     height: 32px;
+    margin: 0 auto;
 }
+
     
 
 /* Blocchi colore */
-header{
-    background-color: darkred;
+.debug .header{
+    background-color: red;
 }
 
-.special{
+.debug .special{
+    background-color: orange;
+}
+
+.debug .title{
+    background-color: yellow;
+}
+
+.debug aside:nth-child(odd){
     background-color: limegreen;
 }
 
-.title{
-    background-color: darkslategrey;
-}
-
-aside:nth-child(odd){
-    background-color: lawngreen;
-}
-
-aside:nth-child(even){
-    background-color: orangered;
+.debug aside:nth-child(even){
+    background-color: steelblue;
 } 
 
-footer{
-    background-color: midnightblue;
+.debug footer{
+    background-color: purple;
 }
