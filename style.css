@@ -4,6 +4,70 @@
     padding: 0;
 }
 
-body{
+header{
+    width: 621px;
+    height: 90px;
+}
+
+.special{
+    width: 621px;
+    height: 261px;
+}
+
+.title{
+    width: 621px;
+    height: 75px;
+}
+
+.clearfix{
+    content: "";
+    display: table;
+    clear: both;
+
+}
+
+aside:nth-child(odd){
+    width: 126px;
+    height: 300px;
+}
+
+aside:nth-child(even){
+    width: 355px;
+    height: 300px;
+    margin: 0 7px;
+}
+
+aside{
+    float: left;
+}
+
+footer{
+    width: 621px;
+    height: 32px;
+}
+    
+
+/* Blocchi colore */
+header{
     background-color: darkred;
+}
+
+.special{
+    background-color: limegreen;
+}
+
+.title{
+    background-color: darkslategrey;
+}
+
+aside:nth-child(odd){
+    background-color: lawngreen;
+}
+
+aside:nth-child(even){
+    background-color: orangered;
+} 
+
+footer{
+    background-color: midnightblue;
 }
